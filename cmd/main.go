@@ -1,7 +1,9 @@
 package main
 
-import "log"
+import (
+	"github.com/LibenHailu/sample-books/initiator"
+)
 
 func main() {
-	log.Println("sample books")
+	initiator.Initiate()
 }
